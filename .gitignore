@@ -1,0 +1,93 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Rider settings
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Auto-generated files
+Generated_Code/
+
+# Others
+*.log
+*.tlog
+*.cache
+*.pdb
+*.dbmdl
+*.bak
+*.backup
+*.swp
+
+# Publish results
+publish/
+wwwroot/lib/
+
+# npm / Node.js (caso use front-end integrado)
+node_modules/
+package-lock.json
+npm-debug.log
+
+# libman
+libman.json
+wwwroot/lib/
+
+# Coverage results
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+
+# Logs
+logs/
+*.log
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Environment files
+.env
+.env.*
+
+# Secret configs (você pode adaptar)
+secrets.json
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Global .NET stuff
+global.json
+
+# Resharper / JetBrains
+_ReSharper*/
+*.DotSettings.user
+
+# Backup files
+*.bak
+*.old
+*.orig
+*.tmp
+
+# VS for Mac
+.vscode/
+*.pidb
+*.userprefs
