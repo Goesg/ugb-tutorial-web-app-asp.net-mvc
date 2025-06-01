@@ -13,6 +13,7 @@ namespace ContosoUniversity.Models
         public string LastName { get; set; }
 
         [StringLength(50)]
+        [Column("FirstName")]
         public string FirstMidName { get; set; }
 
         [DataType(DataType.Date)]
