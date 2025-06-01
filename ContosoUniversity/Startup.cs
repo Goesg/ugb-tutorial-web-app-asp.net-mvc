@@ -27,7 +27,7 @@ public class Startup
     internal void ConectarNoBancoIntegradoAoVisualStudio(IServiceCollection services)
     {
         services.AddDbContext<SchoolContext>(options =>
-       options.UseSqlServer(Configuration.GetConnectionString("DockerDb")));
+       options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
     }
 
     internal void ConectarNoBancoViaDocker(IServiceCollection services)
